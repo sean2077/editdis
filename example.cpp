@@ -1,10 +1,3 @@
-# editdis
-
-A single header C++ library for compute edit distance (Levenshtein distance), supporting wstring.
-
-## Usage
-
-```cpp
 #include "editdis.hpp"
 
 int main(int argc, const char** argv) {
@@ -17,4 +10,3 @@ int main(int argc, const char** argv) {
 
     return 0;
 }
-```
