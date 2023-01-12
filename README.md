@@ -1,6 +1,6 @@
 # editdis
 
-A single header C++ library for compute edit distance (Levenshtein distance), supporting wstring.
+A single header C++ library for compute edit distance (Levenshtein distance), supporting wstring ( and Chinese string).
 
 ## Usage
 
@@ -8,6 +8,7 @@ A single header C++ library for compute edit distance (Levenshtein distance), su
 #include "editdis.hpp"
 
 int main(int argc, const char** argv) {
+    // support Chinese string
     int dis = editdis::edit_distance("浙B82D60", "闽B82060");
     std::cout << dis << std::endl;  // 2
 

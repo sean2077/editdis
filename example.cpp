@@ -1,6 +1,7 @@
 #include "editdis.hpp"
 
 int main(int argc, const char** argv) {
+    // support Chinese string
     int dis = editdis::edit_distance("浙B82D60", "闽B82060");
     std::cout << dis << std::endl;  // 2
 
